@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header styles */
+/* section one style*/
+.background-image {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Banner.png);
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 177px;
+
+}
+
+.container-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+}
+
+/* body styles */
+/* section one styles */
+.section-two-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 120px;
+}
+
+.section-two-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.section-two-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.section-two-image {
+    display: block;
+    margin: 0 auto;
+}
+
+/* section three style */
+.three-background-image {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Vectorrr.png);
+    margin: 120px auto;
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.three-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.three-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-top: 24px;
+    padding-left: 126px;
+}
+
+.three-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding-top: 48px;
+    padding-left: 158px;
+}
+
+.three-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-container img {
+    padding-top: 68.11px;
+    padding-right: 138px;
+}
+
+/* section four style */
+.four-container {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background-size: 100% 100%;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.four-text h1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.four-text h1 span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.four-text h1 {
+    padding: 100px 385px 48px;
+    text-align: center;
+}
+
+.four-container button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    cursor: pointer;
+    margin: 0 576px;
+}
+
